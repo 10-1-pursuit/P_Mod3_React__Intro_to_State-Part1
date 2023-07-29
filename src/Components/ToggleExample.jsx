@@ -23,9 +23,11 @@ const ToggleExample =( props )=>{
         }
 
     }
-    // Rewrite this as a ternary
+    // BONUS: Rewrite this as a ternary
 
-    // Recreate the Sam/Gary Toggle from Module 2
+    
+    // BONUS++: Recreate the Sam/Gary Toggle from Module 2 - Repo Below Incase ⏳🌀💫
+    //// https://github.com/10-1-pursuit/P_Mod2__Cohort_App_Application_Planning_and_Design
 
 
         // setH1Text( "Don't Do It Fam" )  // NO BUENO
