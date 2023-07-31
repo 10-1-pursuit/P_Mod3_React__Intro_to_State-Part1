@@ -2,6 +2,7 @@
 import { useState } from 'react'
 
 import ToggleExample from './Components/ToggleExample.jsx'
+import UseStateWithArrays from './Components/UseStateWithArrays.jsx'
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -83,8 +84,13 @@ function App( ) {
   //////// js
   return (
     <>
+
+
+      {/* Using State/useState() With Arrays */}
+      <UseStateWithArrays />
+
       {/* Toggle Feature Compoenent */}
-      <ToggleExample />
+      {/* <ToggleExample /> */}
 
       
       <div id="our-images">
@@ -99,7 +105,7 @@ function App( ) {
 
       <div className="card">
 
-        <button onClick={ (sythEvent)=>{  setCount(count+1)  } }>
+        <button onClick={    (sythEvent)=>{  setCount(count+1)  }    }>
           count is {count}
         </button>
         {/* <button onClick={ (newDog) => { console.log("youwishthiwasadoglol: ", newDog )} }>
@@ -114,3 +120,18 @@ function App( ) {
 }
 
 export default App
+
+
+
+
+
+
+/*
+
+
+<App />
+L>
+<ToggleExample />
+
+
+*/
