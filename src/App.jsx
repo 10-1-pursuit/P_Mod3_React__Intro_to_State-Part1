@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import ToggleExample from './Components/ToggleExample.jsx'
 import UseStateWithArrays from './Components/UseStateWithArrays.jsx'
+import UseStateWithObjectsPOJO from './Components/UseStateWithObjectsPOJO.jsx'
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -85,9 +86,10 @@ function App( ) {
   return (
     <>
 
+      <UseStateWithObjectsPOJO />
 
       {/* Using State/useState() With Arrays */}
-      <UseStateWithArrays />
+      {/* <UseStateWithArrays /> */}
 
       {/* Toggle Feature Compoenent */}
       {/* <ToggleExample /> */}
